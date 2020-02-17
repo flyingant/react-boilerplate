@@ -1,6 +1,6 @@
-# React App boilerplate
+# React based UI boilerplate
 
-React page boilerplate is the boilerplate to help me building a web page by react quickly with the help by webpack and scss.
+React based UI is the boilerplate to help me building a web page by react quickly with the help by webpack and .
 
 ## Getting Started
 
