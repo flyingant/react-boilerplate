@@ -58,14 +58,8 @@ module.exports = {
         use: ['json-loader'],
       },
       {
-        test: /\.scss$/,
-        include: path.resolve(__dirname, 'src/scss'),
+        test: /\.(sa|sc|c)ss$/,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
-      },
-      {
-        test: /\.css$/,
-        include: path.resolve(__dirname, 'src/css'),
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],
   },
@@ -76,21 +70,24 @@ module.exports = {
 
   devServer: {
     historyApiFallback: true,
-    contentBase: '/dist/',
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
     port: 8080,
   },
 
   output: {
     publicPath: '/',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js',
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'React App Page',
+      title: 'React Page Boilerplate',
       template: 'src/templates/index.html',
     }),
-    new CopyWebpackPlugin([{ from: './src/assets', to: './assets' }]),
+    new CopyWebpackPlugin({
+      patterns: [{ from: './src/assets', to: './assets' }],
+    }),
   ],
 };

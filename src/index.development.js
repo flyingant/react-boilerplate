@@ -8,12 +8,10 @@ import Routers from './routes';
 
 const TARGET_EL = document.getElementById('root');
 
-const Root = () => {
-  return (
-    <>
-      <Routers />
-    </>
-  );
-};
+const Root = () => (
+  <>
+    <Routers />
+  </>
+);
 
 ReactDOM.render(<Root />, TARGET_EL);
