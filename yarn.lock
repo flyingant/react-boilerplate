@@ -775,7 +775,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.4":
+"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.4":
   version "7.7.4"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.7.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
   integrity sha1-sjqFZ1HkvwmSYvhndniJwOP+F1s=
@@ -894,50 +894,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
-
-"@redux-saga/core@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.npm.taobao.org/@redux-saga/core/download/@redux-saga/core-1.1.3.tgz#3085097b57a4ea8db5528d58673f20ce0950f6a4"
-  integrity sha1-MIUJe1ek6o21Uo1YZz8gzglQ9qQ=
-  dependencies:
-    "@babel/runtime" "^7.6.3"
-    "@redux-saga/deferred" "^1.1.2"
-    "@redux-saga/delay-p" "^1.1.2"
-    "@redux-saga/is" "^1.1.2"
-    "@redux-saga/symbols" "^1.1.2"
-    "@redux-saga/types" "^1.1.0"
-    redux "^4.0.4"
-    typescript-tuple "^2.2.1"
-
-"@redux-saga/deferred@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@redux-saga/deferred/download/@redux-saga/deferred-1.1.2.tgz#59937a0eba71fff289f1310233bc518117a71888"
-  integrity sha1-WZN6Drpx//KJ8TECM7xRgRenGIg=
-
-"@redux-saga/delay-p@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@redux-saga/delay-p/download/@redux-saga/delay-p-1.1.2.tgz#8f515f4b009b05b02a37a7c3d0ca9ddc157bb355"
-  integrity sha1-j1FfSwCbBbAqN6fD0Mqd3BV7s1U=
-  dependencies:
-    "@redux-saga/symbols" "^1.1.2"
-
-"@redux-saga/is@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@redux-saga/is/download/@redux-saga/is-1.1.2.tgz#ae6c8421f58fcba80faf7cadb7d65b303b97e58e"
-  integrity sha1-rmyEIfWPy6gPr3ytt9ZbMDuX5Y4=
-  dependencies:
-    "@redux-saga/symbols" "^1.1.2"
-    "@redux-saga/types" "^1.1.0"
-
-"@redux-saga/symbols@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/@redux-saga/symbols/download/@redux-saga/symbols-1.1.2.tgz#216a672a487fc256872b8034835afc22a2d0595d"
-  integrity sha1-IWpnKkh/wlaHK4A0g1r8IqLQWV0=
-
-"@redux-saga/types@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/@redux-saga/types/download/@redux-saga/types-1.1.0.tgz#0e81ce56b4883b4b2a3001ebe1ab298b84237204"
-  integrity sha1-DoHOVrSIO0sqMAHr4aspi4QjcgQ=
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -3210,7 +3166,7 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -3238,11 +3194,6 @@ dedent@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npm.taobao.org/dedent/download/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
-
-deep-diff@^0.3.5:
-  version "0.3.8"
-  resolved "https://registry.npm.taobao.org/deep-diff/download/deep-diff-0.3.8.tgz#c01de63efb0eec9798801d40c7e0dae25b582c84"
-  integrity sha1-wB3mPvsO7JeYgB1Ax+Da4ltYLIQ=
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -3916,9 +3867,9 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha1-1lF2FjiH7lnzhtZMgmELaWpKdOs=
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.0.0"
@@ -4318,11 +4269,9 @@ follow-redirects@1.5.10:
     debug "=3.1.0"
 
 follow-redirects@^1.0.0:
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
-  integrity sha1-jVvNxltxCP4VCGScecEtcy3O208=
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -4775,7 +4724,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.1.0:
   version "3.3.1"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.1.tgz#101685d3aff3b23ea213163f6e8e12f4f111e19f"
   integrity sha1-EBaF06/zsj6iExY/bo4S9PER4Z8=
@@ -4915,9 +4864,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.npm.taobao.org/http-proxy/download/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha1-2+VfY+daNH2389mZdPJpKjFKajo=
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -5145,7 +5094,7 @@ interpret@1.2.0:
   resolved "https://registry.npm.taobao.org/interpret/download/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha1-1QYaYiS+WOgIOYX1AU2EQ1lXYpY=
 
-invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/invariant/download/invariant-2.2.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Finvariant%2Fdownload%2Finvariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -7971,22 +7920,10 @@ react-dom@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.18.0"
 
-react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.9.0:
+react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.12.0"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha1-LMD+D7p0LZf9UnxCoTvsTusGJBw=
-
-react-redux@^7.1.3:
-  version "7.1.3"
-  resolved "https://registry.npm.taobao.org/react-redux/download/react-redux-7.1.3.tgz#717a3d7bbe3a1b2d535c94885ce04cdc5a33fc79"
-  integrity sha1-cXo9e746Gy1TXJSIXOBM3Foz/Hk=
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    hoist-non-react-statics "^3.3.0"
-    invariant "^2.2.4"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
-    react-is "^16.9.0"
 
 react-router-dom@^5.1.2:
   version "5.1.2"
@@ -8132,33 +8069,6 @@ reduce-function-call@^1.0.1:
   integrity sha1-YDUPf7JSwKZ+sQ/UaU0WkJlxMA8=
   dependencies:
     balanced-match "^1.0.0"
-
-redux-logger@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.npm.taobao.org/redux-logger/download/redux-logger-3.0.6.tgz#f7555966f3098f3c88604c449cf0baf5778274bf"
-  integrity sha1-91VZZvMJjzyIYExEnPC69XeCdL8=
-  dependencies:
-    deep-diff "^0.3.5"
-
-redux-saga@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npm.taobao.org/redux-saga/download/redux-saga-1.1.3.tgz#9f3e6aebd3c994bbc0f6901a625f9a42b51d1112"
-  integrity sha1-nz5q69PJlLvA9pAaYl+aQrUdERI=
-  dependencies:
-    "@redux-saga/core" "^1.1.3"
-
-redux-thunk@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/redux-thunk/download/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
-  integrity sha1-UcLBmhhe1Rh6qpotCLZm0NZGdiI=
-
-redux@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.npm.taobao.org/redux/download/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
-  integrity sha1-TuGusWS2PWobzFeuSqC25vp6N5Y=
-  dependencies:
-    loose-envify "^1.4.0"
-    symbol-observable "^1.2.0"
 
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"
@@ -8353,7 +8263,7 @@ require-main-filename@^2.0.0:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
@@ -9255,7 +9165,7 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-symbol-observable@^1.1.0, symbol-observable@^1.2.0:
+symbol-observable@^1.1.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/symbol-observable/download/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
@@ -9521,25 +9431,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript-compare@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npm.taobao.org/typescript-compare/download/typescript-compare-0.0.2.tgz#7ee40a400a406c2ea0a7e551efd3309021d5f425"
-  integrity sha1-fuQKQApAbC6gp+VR79MwkCHV9CU=
-  dependencies:
-    typescript-logic "^0.0.0"
-
-typescript-logic@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.npm.taobao.org/typescript-logic/download/typescript-logic-0.0.0.tgz#66ebd82a2548f2b444a43667bec120b496890196"
-  integrity sha1-ZuvYKiVI8rREpDZnvsEgtJaJAZY=
-
-typescript-tuple@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npm.taobao.org/typescript-tuple/download/typescript-tuple-2.2.1.tgz#7d9813fb4b355f69ac55032e0363e8bb0f04dad2"
-  integrity sha1-fZgT+0s1X2msVQMuA2Pouw8E2tI=
-  dependencies:
-    typescript-compare "^0.0.2"
 
 uglify-js@3.4.x:
   version "3.4.10"
